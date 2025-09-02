@@ -1,0 +1,20 @@
+{
+  "name": "Moneos Network",
+  "short_name": "Moneos",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#0d0d0d",
+  "theme_color": "#0d0d0d",
+  "icons": [
+    {
+      "src": "assets/logo-moneos-gold.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "assets/logo-moneos-gold.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

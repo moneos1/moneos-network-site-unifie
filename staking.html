@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr"><head>
+<meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Staking • Moneos Network</title>
+<link rel="manifest" href="manifest.json"><link rel="stylesheet" href="style.css"/>
+<meta name="theme-color" content="#0d0d0d">
+</head><body>
+<header class="nav"><div class="wrap row"><div class="brand">
+<img src="assets/logo-moneos-gold.png" alt="Moneos"/><strong>Moneos Network</strong></div>
+<nav><ul><li><a href="index.html">Accueil</a></li><li><a href="login.html">Connexion</a></li><li><a href="tableau_de_bord.html">Dashboard</a></li><li><a href="staking.html">Staking</a></li></ul></nav></div></header>
+
+<section class="wrap hero">
+  <h1>Staking (demo)</h1>
+  <p class="lead">Cette page illustre un formulaire de staking. Aucune transaction reelle n'est effectuee.</p>
+  <div class="panel" style="max-width:520px">
+    <label for="amount">Montant a staker (MO)</label><br/>
+    <input id="amount" type="number" min="0" step="0.01" placeholder="100" style="margin:8px 0;padding:10px;border-radius:8px;border:1px solid #222;background:#0b0b0b;color:#fff;width:100%">
+    <label for="duration">Duree</label><br/>
+    <select id="duration" style="margin:8px 0 12px;padding:10px;border-radius:8px;border:1px solid #222;background:#0b0b0b;color:#fff;width:100%">
+      <option value="28">28 jours (demo)</option>
+      <option value="56">56 jours (demo)</option>
+    </select><br/>
+    <button class="btn" onclick="alert('Demo: aucune transaction envoyee')">Lancer le staking</button>
+  </div>
+  <p class="meta" style="margin-top:10px">Pour du vrai staking, on integrera plus tard vos smart‑contracts BSC.</p>
+</section>
+
+<footer class="wrap" style="padding:30px 16px"><div class="meta">© 2025 Moneos Network — Site statique demo (sans smart‑contracts)</div></footer>
+<script src="app.js"></script></body></html>
